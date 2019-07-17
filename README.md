@@ -13,11 +13,11 @@ WebRoot
 ├── favicon.ico
 ├── index.html
 ├── css
-│   ├── app.8a5d8bef.css.gz
-│   └── chunk-vendors.cb82569e.css.gz
+│   ├── app.xxx.css.gz
+│   └── chunk-vendors.xxx.css.gz
 └── js
-    ├── app.7f74ebee.js.gz
-    └── chunk-vendors.04757191.js.gz
+    ├── app.xxx.js.gz
+    └── chunk-vendors.xxx.js.gz
 ```
 
 And it will map your `.md` file to below normal website

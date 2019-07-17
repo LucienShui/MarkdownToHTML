@@ -10,16 +10,18 @@ MarkdownToHTML is a javascript tha can convert & map `.md` file in web root into
 
 ## Usage
 
+Download [build](https://github.com/LucienShui/MarkdownToHTML/archive/build.zip) and decompress it
+
 Put files into web root, and some `.md` file
 
 Insert code below into web site Nginx config file
 
 ```nginx
 location / {
-  try_files $uri $uri/ /index.html;
-  location ~ .*\.(js|css)?$ {
+    try_files $uri $uri/ /index.html;
+    location ~ .*\.(js|css)?$ {
         gzip_static on;
-  }
+    }
 }
 ```
 
@@ -40,11 +42,11 @@ WebRoot
 ├── favicon.ico
 ├── index.html
 ├── css
-│   ├── app.8a5d8bef.css.gz
-│   └── chunk-vendors.cb82569e.css.gz
+│   ├── app.xxx.css.gz
+│   └── chunk-vendors.xxx.css.gz
 └── js
-    ├── app.7f74ebee.js.gz
-    └── chunk-vendors.04757191.js.gz
+    ├── app.xxx.js.gz
+    └── chunk-vendors.xxx.js.gz
 ```
 
 And it will map your `.md` file to below normal website
