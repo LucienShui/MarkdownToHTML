@@ -9,6 +9,8 @@ install:
 
 script:
   - npm run build
+
+after_success:
   - echo 'Start updating example'
   - git clone https://${GH_REF} -b example tmpdir
   - cp -r tmpdir/.git dist
