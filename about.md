@@ -29,7 +29,7 @@ More information about server configurations please see: [HTML5 History Mode | V
 
 ## Example
 
-This example's file tree looks like this
+This [example](https://github.com/LucienShui/MarkdownToHTML/tree/example)'s file tree looks like this
 
 ```plain
 WebRoot
