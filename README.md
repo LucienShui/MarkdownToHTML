@@ -1,6 +1,6 @@
 # MarkdownToHTML
 
-MarkdownToHTML is a javascript tha can convert & map `.md` file in web root into a normal web site
+MarkdownToHTML is a javascript that can convert & map `.md` file into normal web site
 
 + `/foo/README.md` would be mapped to `/foo/`
 + `/foo/bar.md` would be mapped to `/foo/bar`
@@ -29,7 +29,7 @@ More information about server configurations please see: [HTML5 History Mode | V
 
 ## Example
 
-This example's file tree looks like this
+This [example](https://github.com/LucienShui/MarkdownToHTML/tree/example)'s file tree looks like this
 
 ```plain
 WebRoot
